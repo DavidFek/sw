@@ -1,0 +1,42 @@
+.char__button {
+  background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 2rem;
+}
+
+.char__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.char__name {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+.char__label {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.char__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+  gap: 1rem;
+}

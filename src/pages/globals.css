@@ -1,0 +1,7 @@
+body {
+  font-family: "Star Wars", sans-serif;
+  background-image: url("../../public/star-wars-backgrounds.jpeg");
+  background-repeat: repeat;
+  background-size: cover;
+  color: gold;
+}

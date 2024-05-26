@@ -1,0 +1,17 @@
+.notfound__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.notfound__title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+.notfound__par {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem;
+}

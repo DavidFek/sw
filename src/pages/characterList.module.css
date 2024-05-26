@@ -1,0 +1,92 @@
+.optionsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 80%;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+
+.sortContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.select {
+  background-color: #fff000;
+  border: none;
+}
+
+.filterContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.input {
+  background-color: #fff000;
+  border: none;
+}
+
+.characterContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 80%;
+  height: 80vh;
+  gap: 1rem;
+}
+
+.characterLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  text-decoration: none;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.characterCard {
+  border: #fff000 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../../public/images.jpeg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.button {
+  background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 1rem;
+}
+.button__wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
